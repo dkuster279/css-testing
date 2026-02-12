@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sign in</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Brand colors for light/dark device UI (optional but nice) -->
+  <meta name="theme-color" content="#E6007E" />
+
+  <!-- Your custom stylesheet -->
+  <!-- If hosting on GitHub Pages, keep the relative path as-is -->
+  <link rel="stylesheet" href="custom-styles-eco3.css?v=1" />
+
+  <!-- Basic resets to ensure consistent rendering -->
+  <style>
+    /* These tiny resets help the default Entra page render cleanly with your CSS */
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      background: #fff;
+    }
+  </style>
+</head>
+
+<body class="ext-page">
+
+  <!-- Optional header (you can remove if not needed) -->
+  <header class="ext-header" role="banner" aria-label="Company header">
+    <div class="ext-header-inner">
+      <!-- Update logo path to your image inside /images -->
+      <img class="ext-header-logo" src="images/logo.png" alt="Company logo" />
+      <h1 class="ext-title" style="margin:0; font-size:1px; line-height:1; color:transparent;">
+        Sign in
+      </h1>
+    </div>
+  </header>
+
+  <!-- Optional background holder (works with your .ext-* classes if you want a hero image) -->
+  <div class="ext-background-image" aria-hidden="true"></div>
+  <div class="ext-background-overlay" aria-hidden="true"></div>
+
+  <!-- Main content area -->
+  <main class="ext-middle" role="main">
+    <!--
+      The Entra/B2C service injects the entire sign-in experience into this div.
+      Do NOT remove or rename #api.
+    -->
+    <div id="api" class="ext-sign-in-box">
+      <!-- While loading, you can show a lightweight skeleton/placeholder -->
+      <noscript>Please enable JavaScript to continue.</noscript>
+    </div>
+  </main>
+
+  <!-- Optional footer -->
+  <footer class="ext-footer" role="contentinfo">
+    <div class="ext-footer-links">
+      <a href="#" rel="nofollow">Help</a>
+      <span aria-hidden="true"> · </span>
+      <a href="#" rel="nofollow">Privacy</a>
+      <span aria-hidden="true"> · </span>
+      <a href="#" rel="nofollow">Terms</a>
+    </div>
+    <div class="ext-footer-content ext-footer-item">
+      <!-- You can put your tenant or environment note here -->
+      <small>&copy; <span id="year"></span> Your Company</small>
+    </div>
+  </footer>
+
+  <!-- Optional tiny script for the year -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!--
+    Notes:
+    - Keep <div id="api"></div> present and unique on the page.
+    - Your uploaded CSS already contains .ext-sign-in-box — your background-image will apply here.
+    - If you need to reference more images, store them in /images and link relatively, e.g. images/bg.jpg
+  -->
+</body>
+</html>

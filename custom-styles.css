@@ -1,0 +1,225 @@
+@import url("https://use.typekit.net/rli8eni.css");
+
+body
+{
+    /* Styles for the whole page */
+	font-family: "urw-form", "Roboto","Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande",,"Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math", sans-serif;
+}
+
+a,
+a:link
+{
+	color: #000;
+	transition: all 0.25s ease-in-out;
+	text-decoration: none;
+}
+
+a:hover, a:focus
+{
+	text-underline-offset: 5px;
+	text-decoration: underline;
+}
+
+.ext-title
+{
+	font-family: "urw-form-condensed","Roboto Condensed", sans-serif;
+	font-weight: 400;
+}
+
+.ext-background-image
+{
+    /* Styles for the holder that contains the background image in the default lightbox template */
+}
+
+.ext-background-overlay
+{
+    /* Styles to make changes to the background overlay that adds opacity to the background image */
+}
+
+.ext-header
+{
+    /* Styles for the header at the top of the page */
+}
+
+.ext-header-logo
+{
+    /* Styles for the header logo at the top of the page */
+}
+
+.ext-middle
+{
+    /* Styles for the container in the default lightbox template that alligns the sign in box vertically to the middle and horizontally to the center */
+}
+
+.ext-vertical-split-main-section
+{
+    /* Styles for the container in the vertical split (ADFS) template that contains both a sign in box and a background */
+}
+
+.ext-vertical-split-background-image-container
+{
+    /* Styles for the background in the vertical split (ADFS) template */
+}
+
+.ext-sign-in-box
+{
+    /* Styles for the sign in box container */
+}
+
+.ext-banner-logo
+{
+    /* Styles for the banner logo displayed inside the sign-in box */
+}
+
+.ext-subtitle
+{
+    /* Styles for subtitle text */
+}
+
+.ext-header-description
+{
+    /* Styles for the header description displayed below the title for B2C tenants */
+}
+
+.ext-error
+{
+    /* Styles for error text */
+}
+
+.ext-input.ext-text-box
+{
+    /* Styles for text boxes */
+}
+
+.ext-input.ext-text-box.ext-has-error
+{
+    /* Styles for text boxes when there is a validation error associated with the text box */
+}
+
+.ext-input.ext-text-box:hover, .ext-input.ext-text-box:focus
+{
+    /* Styles for text boxes when the mouse is over the text box */
+	/* border-color: #E6007E;  */
+	border-color: #666;
+	border-color: rgba(0,0,0,0.6);
+}
+
+.ext-password-reset-links-container
+{
+    /* Styles for password reset links container box. Helpful to center align the links */
+}
+
+.ext-button-field-container
+{
+    /* Styles for the buttons container. Helpful to center align or make full width */
+}
+.ext-button-item
+{
+    /* Styles for the button items */
+	margin-top: 10px;
+}
+
+.ext-button.ext-primary, .ext-button.ext-secondary
+{
+    /* Styles for primary buttons */
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	transition: all 0.25s ease-in-out;
+	padding: .6rem .9rem;
+}
+
+.ext-button.ext-primary
+{
+    /* Styles for primary buttons */
+	color: #fff;
+	font-weight: 700;
+	border-color: #E6007E;
+	background-color: #E6007E;
+}
+
+.ext-button.ext-primary:hover
+{
+    /* Styles for primary buttons when the mouse is over the button */
+	background-color: #cd0070;
+}
+
+.ext-button.ext-primary:focus
+{
+    /* Styles for primary buttons when the button has focus */
+	background-color: #cd0070;
+	text-decoration: underline;
+}
+
+.ext-button.ext-primary:active
+{
+    /* Styles for primary buttons when the button is being clicked */
+    /* keep the same as primary buttons styles*/
+}
+
+.ext-button.ext-secondary
+{
+    /* Styles for secondary buttons */
+    /* Blue */
+	font-weight: 600;
+}
+
+.ext-button.ext-secondary:hover
+{
+    /* Styles for secondary buttons when the mouse is over the button */
+    /* keep the same as secondary buttons styles*/
+}
+
+.ext-button.ext-secondary:focus
+{
+    /* Styles for secondary buttons when the button has focus */
+     /* keep the same as secondary buttons styles*/
+	 text-decoration: underline;
+}
+
+.ext-button.ext-secondary:focus:hover
+{
+    /* Styles for secondary buttons when the button has focus and the mouse is over the button */
+     /* keep the same as secondary buttons styles*/
+}
+
+.ext-button.ext-secondary:active
+{
+    /* Styles for secondary buttons when the button is being clicked */
+}
+
+.ext-boilerplate-text
+{
+    /* Styles for the custom message text at the bottom of the sign in box */
+}
+
+.ext-promoted-fed-cred-box
+{
+    /* Styles for sign-in options text box */
+}
+
+.ext-footer
+{
+    /* Styles for the footer at the bottom of the page */
+}
+
+.ext-footer.ext-has-background
+{
+    /* Styles for the footer at the bottom of the page */
+}
+
+.ext-footer-links
+{
+    /* Styles for the footer links at the bottom of the page */
+}
+
+.ext-footer-content.ext-footer-item
+{
+    /* Styles for the links in the footer at the bottom of the page */
+}
+
+.ext-footer-content.ext-footer-item.ext-debug-item
+{
+    /* Styles for the debug details ellipsis in the footer at the bottom of the page */
+}
+
+
